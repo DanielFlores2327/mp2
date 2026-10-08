@@ -1,0 +1,90 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .back {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: inherit;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .navButton {
+    padding: 0.5rem 1rem;
+    border: 1px solid #888;
+    border-radius: 6px;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+  }
+  
+  .navButton:hover:not(:disabled) {
+    background: rgba(128, 128, 128, 0.2);
+  }
+  
+  .navButton:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .title {
+    margin: 0;
+    text-transform: capitalize;
+  }
+  
+  .image {
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+    image-rendering: pixelated;
+  }
+  
+  .section {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .badges {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    background: #3b6fd4;
+    color: #fff;
+    text-transform: capitalize;
+  }
+  
+  .stats {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .stats li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  }
+  
+  .statName {
+    text-transform: capitalize;
+  }
